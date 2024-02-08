@@ -1,0 +1,257 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Gilroy";
+  color: #fff;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+/* <h1>1. Add friend Feature with same button CSS</h1> */
+
+/* 
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: cornflowerblue;
+}
+#card {
+  border-radius: 10px;
+  height: 400px;
+  width: 300px;
+  background-color: #fff;
+  padding: 30px;
+  text-align: center;
+}
+
+#card img {
+  height: 55%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 10px;
+}
+
+#card h1 {
+  font-size: 25px;
+  font-weight: 800;
+  margin: 10px 0;
+}
+
+#card h5 {
+  font-size: 25px;
+  color: red;
+  margin-bottom: 20px;
+}
+
+#card button {
+  background-color: cadetblue;
+  color: #fff;
+  font-weight: 700;
+  padding: 12px 20px;
+  border-radius: 5px;
+  border: none;
+  margin: 5px;
+  cursor: pointer;
+} */
+
+/* #card #remove {
+  background-color: #dadada;
+  color: #111;
+} */
+
+/* <h1>2. Insta Love btn CSS</h1> */
+
+/* body {
+  background-color: lightseagreen;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#container {
+  height: 400px;
+  width: 350px;
+  position: relative;
+  border-radius: 10px;
+  background-color: white;
+  overflow: hidden;
+}
+
+#container img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: top;
+}
+
+#container i {
+  color: white;
+  font-size: 75px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  opacity: 0;
+  transition: transform ease 0.5s;
+} */
+
+/* <h1>3. Custom Cursor CSS</h1> */
+
+/* #main {
+  height: 100%;
+  width: 100%;
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cursor {
+  height: 20px;
+  width: 20px;
+  background-color: white;
+  mix-blend-mode: difference;
+  border-radius: 50%;
+  position: absolute;
+  transition: all linear 0.2s;
+}
+
+h1 {
+  font-size: 9vw;
+  font-weight: 900;
+}
+h6 {
+  color: red;
+} */
+
+/* <h1>04. CSS</h1> */
+
+/* #main {
+  height: 100%;
+  width: 100%;
+  background-color: #111;
+  position: relative;
+}
+
+.elem {
+  height: 120px;
+  width: 100%;
+  /* background-color: red; */
+
+/*
+  border-bottom: 2px solid #fff;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  position: relative;
+}
+
+.elem h1 {
+  font-size: 6vw;
+  position: relative;
+  z-index: 9;
+  mix-blend-mode: difference;
+}
+
+.elem img {
+  height: 150px;
+  width: 150px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 50%;
+  position: absolute;
+  /* transform: translate(-50%, -50%); */
+/* opacity: 0;
+  transition: all linear 0.2s;
+} */
+
+/* <h1>05. Insta Stories CSS</h1> */
+
+body {
+  background: #f09433;
+  background: -moz-linear-gradient(
+    45deg,
+    #f09433 0%,
+    #e6683c 25%,
+    #dc2743 50%,
+    #cc2366 75%,
+    #bc1888 100%
+  );
+  background: -webkit-linear-gradient(
+    45deg,
+    #f09433 0%,
+    #e6683c 25%,
+    #dc2743 50%,
+    #cc2366 75%,
+    #bc1888 100%
+  );
+  background: linear-gradient(
+    45deg,
+    #f09433 0%,
+    #e6683c 25%,
+    #dc2743 50%,
+    #cc2366 75%,
+    #bc1888 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#card {
+  height: 480px;
+  width: 300px;
+  background-color: #fff;
+  border-radius: 15px;
+  overflow: hidden;
+  border: 3px solid #000;
+  position: relative;
+}
+
+#storiyan {
+  height: 120px;
+  width: 100%;
+  border-bottom: 1px solid #dadada;
+  padding: 15px;
+  white-space: nowrap;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+#storiyan::-webkit-scrollbar {
+  display: none;
+}
+
+.story {
+  border: 2px solid red;
+  height: 90px;
+  border-radius: 50%;
+  width: 90px;
+  overflow: hidden;
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.story img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+#full-screen {
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  display: none;
+}
