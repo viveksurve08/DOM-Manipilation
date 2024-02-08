@@ -1,4 +1,5 @@
 DOM Manipulation Project
+
 This project demonstrates basic DOM manipulation techniques using HTML, CSS, and JavaScript. It provides examples of how to interact with the Document Object Model (DOM) to dynamically update web content.
 
 Table of Contents
@@ -26,6 +27,7 @@ Clone the repository to your local machine:
 bash
 Copy code
 git clone https://github.com/viveksurve08/DOM-Manipilation.git
+
 Navigate to the project directory:
 
 bash
